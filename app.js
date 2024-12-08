@@ -1,5 +1,3 @@
-console.log('Is this working?');
-
 let viz;
 const vizContainer = document.getElementById('vizContainer');
 const options = {

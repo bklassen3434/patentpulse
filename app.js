@@ -30,16 +30,19 @@ document.addEventListener("DOMContentLoaded", initViz);
 
 // Add event listeners for dashboard switching buttons
 document.getElementById('dashboard1').addEventListener('click', function() {
+    console.log("Dashboard 1 clicked");
     url = "https://public.tableau.com/views/Patent_Pulse/PatentStatistics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link";
     initViz();
 });
 
 document.getElementById('dashboard2').addEventListener('click', function() {
+    console.log("Dashboard 2 clicked");
     url = "https://public.tableau.com/views/Patent_Pulse/EconomicStatistics?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link";
     initViz();
 });
 
 document.getElementById('dashboard3').addEventListener('click', function() {
+    console.log("Dashboard 3 clicked");
     url = "https://public.tableau.com/views/Patent_Pulse/InnovationScores?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link";
     initViz();
 });

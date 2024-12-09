@@ -1,7 +1,7 @@
 let viz;
 const vizContainer = document.getElementById('vizContainer');
 const options = {
-    hideTabs: false,
+    hideTabs: true,
     height: '100%',
     width: '100%',
     onFirstInteraction: function() {
